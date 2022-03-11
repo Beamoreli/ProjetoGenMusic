@@ -26,7 +26,6 @@ public class InteracaoUsuario extends Menus { //Heranca - FormPlayer
 				while (resposta != 1 && resposta != 2 && resposta != 3) {
 					System.out.println("Digite [1], [2] ou [3] ");
 					resposta = leia.nextInt();
-
 				}
 
 				if (resposta == 1) {
@@ -232,7 +231,7 @@ public class InteracaoUsuario extends Menus { //Heranca - FormPlayer
 						x = Voltar();
 					}
 				}
-				if (resposta == 3) {
+				if (resposta == 3) { //random
 					System.out.println("Reproduzindo no aleatório... \n");
 					String[] opcoes = { "The Scarecrow -  Avantasia","Iron Maiden - The Clansman","Iron Maiden - Senjutsu","Angra - Wuthering Heights","Helloween - A Tale That Wasn’t Right","Dream Theater - Panic Attack","MGMT - Electric Feel","Arctic Monkeys - When The Sun Goes Down",
 							"Arctic Monkeys - Arabela","The Kooks - Bad Habit","The Black Keys - Lonely Boy","Foster The People - Helena Beat","The Kid LAROI - STAY","Sub Urban - Cradles","Rihanna - Stay","Lil Nas X - MONTERO","Sub Urban - Freak",
